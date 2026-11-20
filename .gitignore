@@ -1,0 +1,19 @@
+# secrets & local data (never commit these)
+.env
+backend/.secret_key
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node (only used if you run the optional frontend unit tests)
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
